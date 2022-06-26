@@ -23,7 +23,7 @@
 }
 
 .benefits__title {
-  color: var(--primary-text-color);
+  color: $primaryTextColor;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -34,7 +34,7 @@
 }
 
 .benefits__description {
-  color: var(--secondary-text-color);
+  color: $secondaryTextColor;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

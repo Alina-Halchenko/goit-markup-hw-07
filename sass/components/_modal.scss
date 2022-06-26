@@ -54,14 +54,14 @@
 }
 
 .modal__button--close:active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accentColor;
 }
 
 .form__header {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  color: var(--primary-text-color);
+  color: $primaryTextColor;
   letter-spacing: 0.03em;
   margin-bottom: 12px;
 }
@@ -124,13 +124,13 @@
 }
 
 .form__input:focus~.form__icon {
-  fill: var(--accent-color);
+  fill: $accentColor;
 }
 
 
 .form__button {
   display: block;
-  background-color: var(--accent-color);
+  background-color: $accentColor;
   padding: 10px 28px;
   width: 200px;
   height: 50px;
@@ -176,7 +176,7 @@
 .checkbox__input:checked+.checkbox__icon {
   background-color: #2196F3;
   background-origin: border-box;
-  border-color: var(--accent-color);
+  border-color: $accentColor;
   background-image: url('../images/icon-check.svg');
 }
 
@@ -185,7 +185,7 @@
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: $secondaryTextColor;
   margin-left: 8px;
 
   padding: 0;
@@ -195,7 +195,7 @@
 
 .checkbox__link {
   font-family: inherit;
-  color: var(--accent-color);
+  color: $accentColor;
   margin: 0;
   padding: 0;
 }

@@ -19,8 +19,8 @@
 
 .clients__link:hover,
 .clients__link:focus {
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
+  border: 1px solid $accentColor;
+  color: $accentColor;
 }
 
 .clients__icon {

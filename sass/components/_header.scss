@@ -9,7 +9,7 @@
 }
 
 .site-nav__link {
-  color: var(--primary-text-color);
+  color: $primaryTextColor;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -20,12 +20,12 @@
 
 .site-nav__link:hover,
 .site-nav__link:focus {
-  color: var(--accent-color);
+  color: $accentColor;
 }
 
 .site-nav__link--current {
   position: relative;
-  color: var(--accent-color);
+  color: $accentColor;
 }
 
 .site-nav__link--current::after {
@@ -37,7 +37,7 @@
   display: block;
   width: 100%;
   height: 4px;
-  background-color: var(--accent-color);
+  background-color: $accentColor;
   border-radius: 2px;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .contacts__link--header {
-  color: var(--secondary-text-color);
+  color: $secondaryTextColor;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -60,7 +60,7 @@
 
 .contacts__link:hover,
 .contacts__link:focus {
-  color: var(--accent-color);
+  color: $accentColor;
 }
 
 .contacts__link--header+.contacts__link--header {

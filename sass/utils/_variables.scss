@@ -18,7 +18,7 @@ ul {
   display: flex;
 }
 header {
-  background-color: #ffffff;
+  background-color: $primaryColor;
   border-bottom-width: 1px;
   border-bottom-color: rgba(236, 236, 236, 0.7);
   border-bottom-style: solid;
@@ -68,7 +68,7 @@ button {
 }
 
 .title {
-  color: var(--primary-text-color);
+  color: $primaryTextColor;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
