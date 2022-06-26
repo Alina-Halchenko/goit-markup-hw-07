@@ -1,2 +1,30 @@
-// переменные, миксины, функции 
+$primaryColor: #ffffff;
+$secondaryTextColor: #757575;
+$primaryTextColor: #212121;
+$accentColor: #2196F3;
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+body {
+  color: $primaryColor;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  background-color: #2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
