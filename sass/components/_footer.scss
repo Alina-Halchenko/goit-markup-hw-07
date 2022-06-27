@@ -1,5 +1,5 @@
 .address-footer {
-  color: #FFFFFF;
+  color: $primaryColor;
   font-size: 14px;
   font-style: normal;
   line-height: 1.71;
@@ -32,7 +32,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  color: #FFFFFF;
+  color: $primaryColor;
   letter-spacing: 0.03em;
 }
 
@@ -42,16 +42,26 @@
 
 .social__link--footer {
   background-color: rgba(255, 255, 255, 0.1);
-  color: #FFFFFF;
+  color: $primaryColor;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  ;
+  &:hover,
+  &:focus {
+    background-color: $accentColor;
+    color: $primaryColor;
+  }
 }
+.icon--footer {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
 
-.social__link--footer:hover,
-.social__link--footer:focus {
-  background-color: #2196F3;
-  color: #FFFFFF;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    fill: currentColor;
+  }
 }
 
 /*hover and focus are withing the header contact settings */
@@ -79,14 +89,14 @@
   border-radius: 4px;
   background-color: transparent;
   padding: 15px 16px;
-  color: #ffffff;
-}
+  color: $primaryColor;
 
-.signup_input::placeholder {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.14;
-  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.14;
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .signup__button {
@@ -96,7 +106,7 @@
   width: 200px;
   height: 50px;
 
-  color: #ffffff;
+  color: $primaryColor;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -110,7 +120,7 @@
 
 }
 
-.signup>.signup__button::after {
+.signup > .signup__button::after {
   content: "";
   display: inline-block;
   width: 24px;

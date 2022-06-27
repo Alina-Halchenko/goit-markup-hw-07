@@ -9,7 +9,7 @@
   margin-right: auto;
 }
 
-.our-works__item+.our-works__item {
+.our-works__item + .our-works__item {
   margin-left: 30px;
 }
 
@@ -32,5 +32,5 @@
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: $primaryColor;
 }
